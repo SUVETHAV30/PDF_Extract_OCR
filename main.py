@@ -14,8 +14,8 @@ logger = setup_logger()
 from ocr_organizer import process_ocr_response
 
 # Your existing OCR processing code remains the same
-api_key = "6tEP5J5UjidmzaFxjtCdbkFhriH4w3LD"
-os.environ["GROQ_API_KEY"] = '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'
+api_key = os.environ.get("MISTRAL_API_KEY", "Your_api")
+
 client = Mistral(api_key=api_key)
 from groq import Groq
 

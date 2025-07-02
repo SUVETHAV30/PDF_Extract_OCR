@@ -11,7 +11,7 @@ from groq import Groq
 from logger import setup_logger, log_info
 
 logger = setup_logger()
-groq_client = Groq(api_key=os.getenv("GROQ_API_KEY", "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"))
+groq_client = Groq(api_key=os.getenv("GROQ_API_KEY", "Your_api"))
 
 def save_base64_image(base64_str: str, filename: str, output_dir: str = "extracted_images") -> str:
     os.makedirs(output_dir, exist_ok=True)
