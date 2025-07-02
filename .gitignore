@@ -16,3 +16,4 @@ static
 
 *.pdf
 .gitignore
+rendered_product.html
