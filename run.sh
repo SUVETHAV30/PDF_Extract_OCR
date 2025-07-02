@@ -1,0 +1,1 @@
+source ../VisionRag-BC/vrag/bin/activate && poetry run streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 3000

@@ -9,10 +9,14 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "mistralai (>=1.8.2,<2.0.0)",
-    "markdown (>=3.8,<4.0)"
+    "markdown (>=3.8,<4.0)",
+    "groq (>=0.28.0,<0.29.0)",
+    "streamlit (>=1.46.0,<2.0.0)",
+    "pybars3 (>=0.9.7,<0.10.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+  
